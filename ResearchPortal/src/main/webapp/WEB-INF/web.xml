@@ -1,0 +1,70 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <listener>
+  	<listener-class>Methods.Listner</listener-class>
+  </listener>
+  <servlet>
+  	<servlet-name>UsersRegister</servlet-name>
+  	<display-name>UsersRegister</display-name>
+  	<description></description>
+  	<servlet-class>Servlets.UsersRegister</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>UserLogin</servlet-name>
+  	<display-name>UserLogin</display-name>
+  	<description></description>
+  	<servlet-class>Servlets.UserLogin</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>SubmitRecommendation</servlet-name>
+  	<display-name>SubmitRecommendation</display-name>
+  	<description></description>
+  	<servlet-class>Servlets.SubmitRecommendation</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ViewRecommendations</servlet-name>
+  	<display-name>ViewRecommendations</display-name>
+  	<description></description>
+  	<servlet-class>Servlets.ViewRecommendations</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Filter</servlet-name>
+  	<display-name>Filter</display-name>
+  	<description></description>
+  	<servlet-class>Servlets.Filter</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LogoutFromAll</servlet-name>
+  	<display-name>LogoutFromAll</display-name>
+  	<description></description>
+  	<servlet-class>Servlets.LogoutFromAll</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>UsersRegister</servlet-name>
+  	<url-pattern>/UsersRegister</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UserLogin</servlet-name>
+  	<url-pattern>/UserLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>SubmitRecommendation</servlet-name>
+  	<url-pattern>/SubmitRecommendation</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ViewRecommendations</servlet-name>
+  	<url-pattern>/ViewRecommendations</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Filter</servlet-name>
+  	<url-pattern>/Filter</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LogoutFromAll</servlet-name>
+  	<url-pattern>/LogoutFromAll</url-pattern>
+  </servlet-mapping>
+</web-app>
